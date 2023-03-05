@@ -1,0 +1,422 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.cdnfonts.com/css/neue-haas-grotesk-text-pro"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="//fdn.fontcdn.ir" />
+    <link rel="preconnect" href="//v1.fontapi.ir" />
+    <link href="https://v1.fontapi.ir/css/SFProDisplay" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Tailwind Portfolio</title>
+  </head>
+
+  <body>
+    <font face="SF Pro Display">
+      <!-- into section -->
+      <div
+        class="h-1/2 lg:h-screen bg-gradient-to-t from-indigo-200 dark:from-indigo-900 dark:to-slate-900 relative overflow-hidden"
+      >
+        <!-- navbar -->
+        <nav class="w-full fixed top-0 bg-white z-10 dark:bg-slate-900">
+          <div class="container mx-auto py-5 flex items-center justify-between">
+            <div class="flex items-center gap-1">
+              <img
+                class="w-10 transition-all hover:scale-110 rounded-full"
+                src="./img/letter-s.gif"
+                alt=""
+              />
+              <span
+                class="text-2xl font-bold text-indigo-900 dark:text-gray-200"
+              >
+                <font face="SF Pro Display">OURABH</font></span
+              >
+            </div>
+            <font face="SF Pro Display">
+              <ul
+                class="hidden md:flex space-x-10 text-gray-600 dark:text-gray-200 font-bold text-lg uppercase"
+              >
+                <li class="hover:text-gray-500">
+                  <a href="#">homepage</a>
+                </li>
+                <li class="hover:text-gray-500">
+                  <a href="#about">about me</a>
+                </li>
+                <li class="hover:text-gray-500">
+                  <a href="#services">services</a>
+                </li>
+                <li class="hover:text-gray-500">
+                  <a href="#works">projects</a>
+                </li>
+                <li class="hover:text-gray-500">
+                  <a href="#contact">contact</a>
+                </li>
+              </ul>
+            </font>
+            <img
+              id="moon"
+              src="./img/eclipse.gif"
+              class=" md:block w-10 cursor-pointer rounded-full"
+              alt=""
+            />
+            <div id="hamburger" class="space-y-1 md:hidden cursor-pointer z-20">
+              <div class="w-6 h-0.5 bg-black"></div>
+              <div class="w-6 h-0.5 bg-black"></div>
+              <div class="w-6 h-0.5 bg-black"></div>
+            </div>
+            <ul
+              id="menu"
+              class="hidden bg-indigo-900 absolute left-0 top-0 w-full p-10 rounded-b-3xl space-y-10 text-white text-center uppercase font-semibold
+              hover:text-black"
+            >
+              <li>
+                <a id="hLink" href="#">homepage</a>
+              </li>
+              <li>
+                <a id="hLink" href="#about">about me</a>
+              </li>
+              <li>
+                <a id="hLink" href="#services">services</a>
+              </li>
+              <li>
+                <a id="hLink" href="#works">projects</a>
+              </li>
+              <li>
+                <a id="hLink" href="#contact">contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <!-- intro content -->
+        <!-- image -->
+        <img
+          class="absolute bottom-0 right-0 lg:left-0 mx-auto h-5/6 object-cover"
+          src="./img/anime_boy.png"
+          alt=""
+        />
+        <!-- circle -->
+        <div
+          class="h lg:block absolute -bottom-1/4 right-0 left-0 mx-auto w-big h-big bg-indigo-900 dark:bg-indigo-900 rounded-full -z-10
+          "
+        ></div>
+        <!-- animated text -->
+        <div
+          class="absolute top-1/3 left-6 text-4xl sm:left-10 sm:text-lg md:left-1/4 md:text-6xl lg:left-5 xl:left-48 xl:text-7xl font-bold"
+        >
+          <span class="text-gray-500"
+            ><font face="SF Pro Display">Passionate</font></span
+          >
+          <font color="#CB4335 "><p id="text"></p></font>
+        </div>
+        <!-- texts -->
+        <div
+          class="hidden lg:flex flex-col gap-5 rounded-md shadow-lg absolute top-0 bottom-0 m-auto right-10 bg-white dark:bg-slate-900 dark:shadow-slate-800 p-6 h-fit w-1/3 transition-all hover:scale-110"
+        >
+          <h1 class="font-medium text-indigo-900">
+            <font face="SF Pro Display" size="7">Hi, I'm Sourabh Bhat</font>
+          </h1>
+          <p class="text-gray-400 font-semibold">
+            <font face="SF Pro Display">
+              I am a self driven and detail-oriented individual with a passion
+              for digital design and video production. Proficient in HTML, CSS,
+              Adobe Premiere Pro and Canva , I also work with Adobe After
+              Effects. I have a strong understanding of the technical and
+              creative aspects of the field which has helped me land major roles
+              in digital design and video production in many prominent clubs in
+              my college.
+            </font>
+          </p>
+          <a
+            class="bg-indigo-600 text-white text-xl px-3 py-2 rounded-md font-semibold w-fit"
+            href="#contact"
+            >Hire Me</a
+          >
+        </div>
+      </div>
+      <!-- about -->
+      <div id="about" class="px-10 dark:bg-slate-900">
+        <div
+          class="container mx-auto py-40 flex flex-col-reverse lg:flex-row items-center gap-20"
+        >
+          <!-- left -->
+          <div class="relative">
+            <img
+              class="h-1/4 absolute top-0 left-0 -z-10"
+              src="./img/dots.png"
+              alt=""
+            />
+            <div class="h-full rounded-full overflow-hidden">
+              <img src="./img/closeup.jpeg" alt="" />
+            </div>
+          </div>
+          <!-- right -->
+          <div class="my-auto flex flex-col gap-3">
+            <h1 class="text-indigo-600 font-bold text-2xl">
+              <font face="SF Pro Display">ABOUT ME</font>
+            </h1>
+            <h1 class="text-3xl font-semibold dark:text-white">
+              <font face="SF Pro Display">Better Design</font>
+            </h1>
+            <h1 class="text-3xl font-semibold dark:text-white">
+              <font face="SF Pro Display"> Better Experience </font>
+            </h1>
+            <p class="text-gray-400 text-xl font-medium">
+              Additionally, I have basic knowledge of programming languages such
+              as Java and C, and I am currently expanding my skillset by
+              learning JavaScript and UI/UX design. I am always seeking to
+              expand my skill set and take on new challenges to create visually
+              compelling content that tells a story and engages audiences.
+            </p>
+            <h2 class="text-gray-400 text-xl font-medium">HTML5</h2>
+            <div class="w-full bg-gray-200 h-1.5 rounded-md">
+              <div class="w-5/6 bg-indigo-600 h-1.5 rounded-md "></div>
+            </div>
+
+            <h2 class="text-gray-400 text-xl font-medium">CSS</h2>
+            <div class="w-full bg-gray-200 h-1.5 rounded-md">
+              <div class="w-1/3 bg-indigo-600 h-1.5 rounded-md"></div>
+            </div>
+            <h2 class="text-gray-400 text-xl font-medium">
+              Adobe Premiere Pro
+            </h2>
+            <div class="w-full bg-gray-200 h-1.5 rounded-md">
+              <div class="w-5/6 bg-indigo-600 h-1.5 rounded-md"></div>
+            </div>
+            <h2 class="text-gray-400 text-xl font-medium">
+              Adobe After Effects
+            </h2>
+            <div class="w-full bg-gray-200 h-1.5 rounded-md">
+              <div class="w-1/3 bg-indigo-600 h-1.5 rounded-md"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- services -->
+      <div id="services" class="dark:bg-slate-900">
+        <div class="container mx-auto">
+          <!-- top -->
+          <div class="flex flex-col gap-3 items-center">
+            <h1 class="text-indigo-600 text-3xl font-bold">SERVICES</h1>
+            <h1 class="text-3xl dark:text-white">What do I offer?</h1>
+            <p class="w-1/2 text-center text-xl font-semibold text-gray-400">
+              Whether it's designing a website, editing a video, or creating
+              graphics, I am dedicated to delivering high-quality work and
+              exceeding expectations.
+            </p>
+          </div>
+
+          <!-- bottom -->
+          <div class="p-5 sm:p-0 flex flex-wrap justify-between">
+            <!-- card -->
+            <div
+              class="w-full md:w-4/12 shadow-xl rounded-lg p-5 my-3 md:my-10 flex flex-col gap-3"
+            >
+              <img class="w-10" src="./img/icon.png" alt="" />
+              <h1 class="font-medium text-3xl dark:text-white">
+                Video Editing
+              </h1>
+              <p class="text-gray-400 text-xl">
+                I specialize in creating interactive videos for individuals and
+                clubs.
+              </p>
+              <a class="text-indigo-600 font-semibold text-sm" href=""
+                >Read More</a
+              >
+            </div>
+            <!-- card -->
+            <div
+              class="w-full md:w-4/12 shadow-xl rounded-lg p-5 my-3 md:my-10 flex flex-col gap-3"
+            >
+              <img class="w-10" src="./img/icon.png" alt="" />
+              <h1 class="font-medium text-3xl dark:text-white">
+                Motion Graphics
+              </h1>
+              <p class="text-gray-400 text-xl">
+                I specialize in creating interactive motion graphics for
+                individuals and small businesses.
+              </p>
+              <a class="text-indigo-600 font-semibold text-sm" href=""
+                >Read More</a
+              >
+            </div>
+            <!-- card -->
+            <div
+              class="w-full md:w-4/12 shadow-xl rounded-lg p-5 my-3 md:my-10 flex flex-col gap-3"
+            >
+              <img class="w-10" src="./img/icon.png" alt="" />
+              <h1 class="font-medium text-3xl dark:text-white">
+                Website Design
+              </h1>
+              <p class="text-gray-400 text-xl">
+                I specialize in creating interactive websites for individuals
+                and small businesses.
+              </p>
+              <a class="text-indigo-600 font-semibold text-sm" href=""
+                >Read More</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- works -->
+      <div id="works" class="py-40 dark:bg-slate-900">
+        <div class="container mx-auto">
+          <!-- top -->
+          <div class="flex flex-col gap-3 items-center">
+            <h1 class="text-indigo-600 text-3xl font-bold">PORTFOLIO</h1>
+            <h1 class="text-3xl font-semibold text-gray-700 dark:text-white">
+              Works & Projects
+            </h1>
+            <p class="w-1/2 text-center text-xl text-gray-400 font-normal">
+              What do I offer? Whether it's designing a website, editing a
+              video, or creating graphics, I am dedicated to delivering
+              high-quality work and exceeding expectations.
+            </p>
+          </div>
+          <!-- bottom -->
+          <div class="p-5 sm:p-0 flex flex-wrap justify-between">
+            <!-- card -->
+            <div
+              class="md:w-5/12 lg:w-1/5 shadow-xl rounded-lg my-1 md:my-10 transition-all hover:scale-110"
+            >
+              <a
+                href="https://www.youtube.com/watch?v=98hUyYQdDmc"
+                target="_blank"
+              >
+                <img src="./img/nammooru.png" height="100px" />
+              </a>
+              <div class="text-3xl font-medium">
+                <font color="grey">Short Cinematic Film</font>
+              </div>
+            </div>
+            <!-- card -->
+            <div
+              class="w-full md:w-5/12 lg:w-1/5 shadow-xl rounded-lg my-3 md:my-10 m-1 transition-all hover:scale-110"
+            >
+              <img src="./img/after effects.gif" />
+              <div class="text-3xl font-medium">
+                <font color="grey">Motion Graphics</font>
+              </div>
+            </div>
+            <!-- card -->
+            <div
+              class="w-full md:w-5/12 lg:w-1/5 shadow-xl rounded-lg my-3 md:my-10 m-1 transition-all hover:scale-110"
+            >
+              <img src="./img/premiere pro.gif" />
+              <div class="text-3xl font-medium">
+                <font color="grey">Adobe Premiere Pro</font>
+              </div>
+            </div>
+            <!-- card -->
+            <div
+              class="w-full md:w-5/12 lg:w-1/5 shadow-xl rounded-lg my-3 md:my-10 m-1 transition-all hover:scale-110"
+            >
+              <a
+                href="https://sourabhbhat.github.io/Ruthless-Contact/"
+                target="_blank"
+              >
+                <img src="./img/ruthless contact.png" />
+              </a>
+              <div class="text-3xl font-medium">
+                <font color="grey">Ruthless Contact</font>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- contact -->
+      <div id="contact" class="dark:bg-slate-900">
+        <div class="container mx-auto">
+          <!-- top -->
+          <div class="flex flex-col gap-3 items-center">
+            <h1 class="text-indigo-600 font-bold text-3xl">CONTACT</h1>
+            <h1 class="text-3xl dark:text-white">Have a Question?</h1>
+            <p class="w-1/2 text-center text-gray-400 text-2xl">
+              Do you have an idea? Let's discuss it and see what we can do
+              together.
+            </p>
+          </div>
+          <!-- bottom -->
+          <form class="mt-5 p-8 flex flex-col gap-5 items-center">
+            <input
+              class="p-2 w-full md:w-1/2 ring-1 ring-indigo-300 rounded-sm dark:bg-slate-800 dark:ring-0 dark:text-white"
+              type="text"
+              placeholder="Name Surname"
+            />
+            <input
+              class="p-2 w-full md:w-1/2 ring-1 ring-indigo-300 rounded-sm dark:bg-slate-800 dark:ring-0 dark:text-white"
+              type="email"
+              placeholder="Email"
+            />
+            <textarea
+              class="p-2 w-full md:w-1/2 ring-1 ring-indigo-300 rounded-sm dark:bg-slate-800 dark:ring-0 dark:text-white"
+              cols="30"
+              rows="10"
+              placeholder="Message..."
+            ></textarea>
+            <button
+              class="w-1/2 bg-indigo-600 text-white font-medium px-3 py-2 rounded-md cursor-pointer"
+            >
+              Submit
+            </button>
+          </form>
+        </div>
+      </div>
+      <!-- footer -->
+      <div class="w-full bg-gray-800">
+        <div class="container mx-auto py-5 flex items-center justify-between">
+          <div class="flex items-center gap-1">
+            <img class="w-10 rounded-full" src="./img/letter-s.gif" alt="" />
+            <span class="text-2xl font-bold text-white">ourabh Bhat</span>
+          </div>
+          <span class="hidden md:block font-medium text-white"
+            >© 2023 Sourabh Bhat. Designed with ♥️ by Sourabh Bhat.</span
+          >
+          <div class="flex gap-5">
+            <a
+              href="https://www.linkedin.com/in/sourabh-d-bhat/"
+              target="_blank"
+            >
+              <img
+                class="w-10 cursor-pointer transition-all hover:scale-110"
+                src="./img/linkedin (1).png"
+                alt=""
+              />
+            </a>
+            <a href="https://www.instagram.com/_sourabh_bhat/" target="_blank">
+              <img
+                class="w-10 cursor-pointer transition-all hover:scale-110"
+                src="./img/instagram (1).png"
+                alt=""
+              />
+            </a>
+            <a
+              href="https://www.youtube.com/channel/UCmahibhcRGiUQ38iZwE4Ceg"
+              target="_blank"
+            >
+              <img
+                class="w-10 cursor-pointer transition-all hover:scale-110"
+                src="./img/youtube.png"
+                alt=""
+              />
+            </a>
+            <a href="mailto:bhatsourabh3@gmail.com" target="_blank">
+              <img
+                class="w-10 cursor-pointer transition-all hover:scale-110"
+                src="./img/gmail.png"
+                alt=""
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+      <script src="./app.js"></script>
+      <script src="./autotyping.js"></script>
+    </font>
+  </body>
+</html>
